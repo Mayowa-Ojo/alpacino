@@ -1,1 +1,22 @@
-@import "../dist/tailwind.dist.css"
+@import "../dist/tailwind.dist.css";
+
+
+select + span {
+   right: 10.5rem;
+   top: 0;
+   bottom: 0;
+}
+
+input + label {
+   transition: 0.1s linear;
+   transform: translate(-5.5rem, 0rem);
+   /* width: 4rem; */
+}
+input:focus {
+   outline: none;
+}
+input:focus + label {
+   color: #90CDF4 !important;
+   transform: translate(-5.5rem, -0.9rem);
+   font-size: 0.7rem !important;
+}
