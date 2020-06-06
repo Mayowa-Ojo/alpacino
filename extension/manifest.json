@@ -1,7 +1,7 @@
 {
-  "name": "Change Web Extention Name",
-  "version": "0.0.1",
-  "description": "Change the description of this web extension",
+  "name": "Alpacino",
+  "version": "1.0.0",
+  "description": "Easy unit conversion tool",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "./dist/popup.html",
