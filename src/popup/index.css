@@ -20,3 +20,18 @@ input:focus + label {
    transform: translate(-5.5rem, -0.9rem);
    font-size: 0.7rem !important;
 }
+
+.dropdown ul::-webkit-scrollbar {
+   width: 5px;
+}
+.dropdown ul::-webkit-scrollbar-thumb {
+   background: #c4c4c4;
+   border-radius: 20px;
+}
+.dropdown ul::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+.result {
+   min-width: 4rem !important;
+}
